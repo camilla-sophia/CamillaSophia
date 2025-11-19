@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Trabalho final Camilla Sophia - página inicial</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="./img/logo_questor.png" alt="Logo Questor Sistemas">
+        <h1>Inscrição para vaga de estágio na Questor Sistemas</h1>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="sobre/index.html">Sobre</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro">
+            <p class="orientacao">
+                Para participar da vaga, preencha suas informações básicas: idade, gênero, formação, assuntos de
+                interesse e habilidades que você considera importantes. Ao final, escreva um pouco sobre você para que
+                possamos conhecer melhor o seu perfil.
+            </p>
+            <img src="./img/robo_questor.png" alt="">
+            <div class="formulario">
+
+                <label for="idade">Idade</label>
+                <input type="text" id="idade" placeholder="Digite sua idade">
+
+                <br><label>Gênero</label>
+                <div class="generos">
+                    <button type="button" class="btn-genero">Feminino</button>
+                    <button type="button" class="btn-genero">Masculino</button>
+                    <button type="button" class="btn-genero">Outro</button>
+                </div>
+
+                <label for="formacao">Formação</label>
+                <input type="text" id="formacao" placeholder="Ex: Ensino Médio, Técnico, Graduação...">
+
+                <br><label>Assuntos de Interesse</label>
+                <div class="interesses">
+                    <input type="text" id="novoInteresse" placeholder="Adicionar interesse">
+                    <button type="button" id="addInteresse">Adicionar</button>
+
+                    <ul id="listaInteresses"></ul>
+                </div>
+
+                <label for="habilidades">Habilidades</label>
+                <input type="text" id="habilidades" placeholder="Ex: SQL, JavaScript, etc...">
+
+                <br><label for="sobre">Fale sobre você</label>
+                <textarea id="sobre" rows="5" placeholder="Escreva um pouco sobre você..."></textarea>
+
+                <button id="enviarForm" type="button">Enviar</button>
+            </div>
+
+    </main>
+
+    <footer>
+        <p>Projeto por Camilla Sophia</p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>

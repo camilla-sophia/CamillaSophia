@@ -1,0 +1,203 @@
+/*controle do espaçamento em diferentes tamanhos de exibição*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: #f5f5f5;
+    color: #2B2B2B;
+}
+
+header {
+    background: #2B2B2B;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/*estilo dos links*/
+nav a {
+    color: #F28A2E;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.intro img {
+    width: 170px;
+    display: block;
+    margin: 20px auto;
+}
+
+.orientacao {
+    background: white;
+    border-left: 4px solid #F28A2E;
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 25px;
+}
+
+.formulario {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+label {
+    font-size: 0.95rem;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #cfcfcf;
+    font-size: 0.95rem;
+    background: #fafafa;
+}
+
+input:focus, textarea:focus {
+    border-color: #F28A2E;
+    outline: none;
+    background: white;
+}
+
+.generos {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-genero {
+    flex: 1;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background: #eee;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn-genero:hover {
+    background: #e2e2e2;
+}
+
+.btn-genero.ativo {
+    background: #F28A2E;
+    border-color: #d6701e;
+    color: white;
+    font-weight: bold;
+}
+
+.interesses {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.interesses .linha {
+    display: flex;
+    gap: 10px;
+}
+
+.interesses input {
+    flex: 3;
+}
+
+.interesses button {
+    flex: 1;
+    padding: 10px;
+    background: #F28A2E;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.interesses button:hover {
+    background: #d6701e;
+}
+
+.interesses ul {
+    padding-left: 20px;
+    margin-top: 5px;
+}
+
+.interesses li {
+    background: #fafafa;
+    border: 1px solid #ddd;
+    padding: 8px;
+    border-radius: 6px;
+    margin-bottom: 5px;
+}
+
+#enviarForm {
+    padding: 12px;
+    border: none;
+    background: #F28A2E;
+    color: white;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#enviarForm:hover {
+    background: #d6701e;
+}
+
+footer {
+    background: #2B2B2B;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+
+    .generos {
+        flex-direction: column;
+    }
+
+    .interesses .linha {
+        flex-direction: column;
+    }
+
+    header img {
+        width: 110px;
+    }
+
+    .intro img {
+        width: 130px;
+    }
+}
+
+.sobre-img {
+    width: 250px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+}
