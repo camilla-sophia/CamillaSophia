@@ -6,12 +6,12 @@ Este projeto foi desenvolvido para a disciplina de Criação de Páginas Web seg
 - Responsividade  
 - Estrutura de pastas correta    
 
-**Tecnologias utilizadas**
+Tecnologias utilizadas:
 - HTML  
 - CSS
 - JavaScript
 
-**Funcionalidades**
+Funcionalidades:
 - Navegação entre páginas  
 - Botão interativo com JavaScript  
 - Layout responsivo 
