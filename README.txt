@@ -1,10 +1,9 @@
 Este projeto foi desenvolvido para a disciplina de Criação de Páginas Web seguindo os critérios solicitados:
-- HTML semântico  
-- CSS organizado  
-- JavaScript mínimo e funcional  
+- HTML
+- CSS   
+- JavaScript   
 - Responsividade  
-- Estrutura de pastas correta  
-- Participação no desenvolvimento  
+- Estrutura de pastas correta    
 
 **Tecnologias utilizadas**
 - HTML  
