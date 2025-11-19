@@ -1,3 +1,4 @@
+Integrantes: Camilla S. R. dos Santos
 Este projeto foi desenvolvido para a disciplina de Criação de Páginas Web seguindo os critérios solicitados:
 - HTML
 - CSS   
